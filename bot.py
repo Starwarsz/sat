@@ -23,6 +23,9 @@ import os
 from datetime import datetime
 import pytz
 
+client = commands.Bot()
+token = (os.getenv("DISCORD_TOKEN"))
+
 bot = commands.Bot(command_prefix = '!', help_command = None)
 
 # 아래는 봇이 구동되었을 때 동작하는 부분
